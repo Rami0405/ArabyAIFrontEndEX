@@ -1,0 +1,17 @@
+.twitter {
+    height: 30px;
+    width: 10%;
+    padding: 3px;
+}
+
+.box {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+}

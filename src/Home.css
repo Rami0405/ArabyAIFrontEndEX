@@ -1,0 +1,86 @@
+.inputField {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    width: 100%
+}
+
+
+.h1FontWeight {
+    font-weight: bold;
+}
+
+.divPhone {
+    padding-top: 50px;
+}
+
+.buttonPhone {
+    padding: 15px 60px
+}
+
+.fontAR {
+    font-family: Tajawal;
+}
+
+.fontEN {
+    font-family: Poppins;
+}
+
+.fontBAR {
+    font-weight: 900;
+}
+
+.fontBEN {
+    font-weight: 300;
+}
+
+#imageArrowEN {
+    left: -206px;
+    right: auto;
+    transform: rotate(216deg);
+}
+
+#imageArrowAR {
+    left: auto;
+    right: -192px;
+    transform: rotate(-10deg);
+}
+
+#buttonBold {
+    font-weight: bolder;
+}
+
+@media screen and (max-width:900px) {
+    .robotPhoto {
+        max-width: 280px;
+        max-height: 280px;
+
+    }
+
+    .robotPhotoBG {
+        max-width: 230px;
+        max-height: 230px;
+    }
+
+    .imageThinking {
+        display: none;
+    }
+
+    .thinkingCol {
+        flex-direction: column;
+    }
+
+    .h1FontWeight {
+        font-weight: 600;
+    }
+
+    .buttonPhone {
+        padding: 10px 40px;
+        font-size: 15px;
+    }
+
+    .divPhone {
+        padding-top: 100px;
+    }
+
+}

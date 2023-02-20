@@ -1,0 +1,27 @@
+.navii {
+    background-image: linear-gradient(90deg, #3a95f6 20%, #7a14ff);
+    border: 1px solid white;
+    border-radius: 100px;
+
+}
+
+#fontResize {
+    font-size: 22px;
+}
+
+#fontBold {
+    font-weight: bolder;
+    color: blue
+}
+
+@media screen and (max-width:900px) {
+    .remove {
+        display: none;
+    }
+
+    #fontResize {
+        font-size: 15px;
+
+    }
+
+}

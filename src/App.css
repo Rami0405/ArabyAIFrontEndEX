@@ -1,0 +1,25 @@
+.headText {
+  font-style: normal;
+  padding-bottom: 170px;
+  padding-inline-start: 65px;
+}
+
+.cards {
+  float: right;
+  padding-right: 5%;
+  padding-top: 10%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:900px) {
+  .headText {
+    font-size: large;
+    font-style: normal;
+    padding-bottom: 120px;
+    padding-inline-start: 10px;
+
+  }
+}
